@@ -19,16 +19,12 @@ export type Contenuto = {
 const CONTENUTI = path.join(process.cwd(), 'contenuti')
 
 function base(): string {
+  // I PNG sono serviti dal repo pubblico su raw.githubusercontent (image/png,
+  // pubblico, stabile) invece che da Vercel: Meta li scarica da lì. Override
+  // possibile con MEDIA_BASE se un giorno si cambia host.
   const raw =
-    process.env.SITO_BASE ||
-    (process.env.VERCEL_PROJECT_PRODUCTION_URL
-      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-      : '')
-  if (!raw) {
-    throw new Error(
-      "URL pubblico mancante: imposta SITO_BASE (o lascia che Vercel fornisca VERCEL_PROJECT_PRODUCTION_URL). Serve perché Meta scarica i PNG da lì.",
-    )
-  }
+    process.env.MEDIA_BASE ||
+    'https://raw.githubusercontent.com/Bubu19971234/scartapp-social/main/public'
   return raw.replace(/\/$/, '')
 }
 
