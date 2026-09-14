@@ -1,0 +1,73 @@
+{
+  "slug": "risposte-whatsapp",
+  "titolo_interno": "L'assistente che risponde alle domande di sempre",
+  "caption": "Rispondi tutto il giorno alle stesse dieci domande.\n\nOrari, spedizioni, resi, disponibilità. Cose già scritte da qualche parte, ma i clienti le chiedono a te. E arrivano di sera, nel weekend, quando non ci sei. E chi non riceve risposta se ne va.\n\nIo posso rispondere al posto tuo, dentro i limiti che decidi tu. Le domande facili le prendo io, quelle vere restano a te.\n\nRispondi sempre alle stesse cose? DM o link in bio. ✉️\n\n#assistenzaclienti #whatsapp #automazione #intelligenzaartificiale #agentiAI #ecommerce #piccoleimprese #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Rispondi tutto il giorno alle stesse dieci [[domande]].",
+      "piede": "e domani ricomincia →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Orari. Spedizioni. Resi. Disponibilità.",
+      "sub": "Le stesse cose, riscritte da capo ogni volta. Sono già sul tuo sito, ma il cliente le chiede a te, in chat."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Ti frammentano la giornata.",
+      "sub": "Ogni messaggio ti stacca da quello che stavi facendo. Dieci volte, cento volte. E alla sera non sai dove sono finite le ore."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E fuori orario?",
+      "titolo": "Arrivano quando non ci sei.",
+      "sub": "Di sera, di domenica. Chi fa una domanda e non riceve risposta in fretta, spesso non aspetta: va da un altro."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "Non puoi essere sempre lì.",
+      "sub": "Rispondi tu a tutto, e se stai fuori un giorno si ferma tutto. Non è pigrizia: è che non ti puoi sdoppiare."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Alle domande facili rispondo [[io]].",
+      "sub": "Dentro i limiti che decidi tu. Le richieste ripetitive le prendo io, subito, anche di notte. Quelle vere le lascio a te."
+    },
+    {
+      "tipo": "pipeline",
+      "occhiello": "Come funziona",
+      "titolo": "Filtro io, prima di te.",
+      "passi": [
+        "Leggo la domanda",
+        "Rispondo se è tra le mie",
+        "Passo a te ciò che conta"
+      ],
+      "sub": "Con limiti chiari: so cosa dire e cosa no. Non invento."
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Un menù digitale l'ha fatto così.",
+      "sub": "Un assistente dentro il menù che risponde ai clienti e consiglia gli abbinamenti al posto del titolare, con limiti e controlli espliciti su cosa può e non può dire."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Imparo le tue risposte.",
+      "sub": "Orari, regole, cosa dici di solito. Rispondo con le tue parole, entro i tuoi confini. Tu decidi dove finisco io e inizi tu."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi smettere di [[ripetere]] le stesse risposte?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "C"
+}

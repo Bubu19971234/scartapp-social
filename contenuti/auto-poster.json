@@ -3,15 +3,71 @@
   "titolo_interno": "L'agente che scrive e pubblica i post da solo",
   "caption": "Questa pagina non la scrive nessuno.\n\nNessun social media manager, nessuno che \"fa i social\" alle 23. La scrivono tre agenti: uno legge i problemi veri delle aziende e scrive il carosello, uno fa la grafica, uno pubblica su Instagram e Facebook. Da solo.\n\nQuesto post — testo, grafica, orario — è uscito così. Nessuno l'ha toccato.\n\nVuoi che la tua pagina si scriva da sola? Scrivici in DM o dal link in bio. ✉️\n\n#automazione #intelligenzaartificiale #piccoleimprese #socialmedia #agentiAI #marketing",
   "slides": [
-    { "tipo": "cover", "occhiello": "Scart Up · 1/10", "titolo": "Questa pagina non la scrive [[nessuno]].", "piede": "nessun social manager →" },
-    { "tipo": "testo", "occhiello": "La scena", "titolo": "Due strade, le conosci.", "sub": "Paghi qualcuno per «gestire i social». Oppure li fai tu alle 23, stanco, fissando lo schermo senza sapere cosa scrivere." },
-    { "tipo": "testo", "occhiello": "Il costo nascosto", "titolo": "Costa quanto uno stipendio.", "sub": "Ogni mese. Per scrivere cose che i tuoi clienti ti stanno già dicendo." },
-    { "tipo": "testo", "occhiello": "E se salti un mese", "titolo": "Sparisci.", "sub": "L'algoritmo dimentica chi non è costante. E la costanza, a mano, non regge mai." },
-    { "tipo": "testo", "occhiello": "Non è colpa tua", "titolo": "Non è pigrizia.", "sub": "12 caroselli buoni al mese è un lavoro vero. Solo che non è il [[tuo]] lavoro." },
-    { "tipo": "testo", "occhiello": "La svolta", "titolo": "E se lo facesse un [[agente]]?", "sub": "Dai tuoi casi. Ogni settimana. Senza stancarsi mai." },
-    { "tipo": "pipeline", "occhiello": "Come funziona", "titolo": "Tre agenti in fila.", "passi": ["Scrive", "Impagina", "Pubblica"], "sub": "Dai tuoi casi. Su Instagram e Facebook. Da solo." },
-    { "tipo": "prova", "occhiello": "La prova", "titolo": "Questo post è uscito così.", "sub": "Testo, grafica, orario: nessuno l'ha toccato. Il sistema che descrivo è quello che ti sta parlando." },
-    { "tipo": "testo", "occhiello": "E da me come si fa?", "titolo": "Gli agenti girano sul tuo PC.", "sub": "Pescano dai tuoi dati e pubblicano da soli. Tu approvi, se vuoi. Oppure nemmeno." },
-    { "tipo": "cta", "occhiello": "Ne hai bisogno?", "titolo": "Vuoi che la [[tua]] pagina si scriva da sola?", "azione": "DM o link in bio" }
-  ]
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Questa pagina non la scrive [[nessuno]].",
+      "piede": "nessun social manager →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Due strade, le conosci.",
+      "sub": "Paghi qualcuno per «gestire i social». Oppure li fai tu alle 23, stanco, fissando lo schermo senza sapere cosa scrivere."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Costa quanto uno stipendio.",
+      "sub": "Ogni mese. Per scrivere cose che i tuoi clienti ti stanno già dicendo."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E se salti un mese",
+      "titolo": "Sparisci.",
+      "sub": "L'algoritmo dimentica chi non è costante. E la costanza, a mano, non regge mai."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "Non è pigrizia.",
+      "sub": "12 caroselli buoni al mese è un lavoro vero. Solo che non è il [[tuo]] lavoro."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "E se lo facesse un [[agente]]?",
+      "sub": "Dai tuoi casi. Ogni settimana. Senza stancarsi mai."
+    },
+    {
+      "tipo": "pipeline",
+      "occhiello": "Come funziona",
+      "titolo": "Tre agenti in fila.",
+      "passi": [
+        "Scrive",
+        "Impagina",
+        "Pubblica"
+      ],
+      "sub": "Dai tuoi casi. Su Instagram e Facebook. Da solo."
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Questo post è uscito così.",
+      "sub": "Testo, grafica, orario: nessuno l'ha toccato. Il sistema che descrivo è quello che ti sta parlando."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Gli agenti girano sul tuo PC.",
+      "sub": "Pescano dai tuoi dati e pubblicano da soli. Tu approvi, se vuoi. Oppure nemmeno."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi che la [[tua]] pagina si scriva da sola?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "B"
 }

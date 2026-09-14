@@ -1,0 +1,73 @@
+{
+  "slug": "foto-amazon",
+  "titolo_interno": "Foto prodotto a norma Amazon in automatico",
+  "caption": "Amazon ti rifiuta la foto. Di nuovo.\n\nSfondo non bianco, misura sbagliata, prodotto troppo piccolo nell'inquadratura. Così ti siedi e le rifai una a una, a mano, per centinaia di prodotti.\n\nIo prendo le tue foto grezze e te le consegno pronte: scontornate, sfondo bianco, tutte le misure per Amazon e per il sito. In blocco.\n\nHai un catalogo di foto da sistemare? DM o link in bio. ✉️\n\n#amazon #ecommerce #fotoprodotto #automazione #piccoleimprese #agentiAI #marketplace #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Amazon ti rifiuta la [[foto]]. Di nuovo.",
+      "piede": "e sono centinaia →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Ti siedi e le rifai a mano.",
+      "sub": "Una per una. Ritagli lo sfondo, lo metti bianco, esporti nelle misure giuste. Poi il prodotto dopo. E quello dopo ancora."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Non è un pomeriggio. Sono settimane.",
+      "sub": "Su un catalogo vero le foto sono centinaia. E ogni canale vuole la sua misura: Amazon una, il sito un'altra."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E intanto",
+      "titolo": "I prodotti restano fermi.",
+      "sub": "Finché la foto non è a norma, la scheda non va online. E una scheda che non c'è non vende niente."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "È un lavoro da robot.",
+      "sub": "Ripetitivo, identico, senza margine di creatività. Esattamente il tipo di lavoro che non dovrebbe farlo una persona."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Le tue foto le preparo [[io]].",
+      "sub": "Mi dai gli scatti grezzi. Ti restituisco un pacchetto pronto: scontornato, sfondo pulito, tutte le misure che servono."
+    },
+    {
+      "tipo": "pipeline",
+      "occhiello": "Come funziona",
+      "titolo": "Da foto grezza a scheda pronta.",
+      "passi": [
+        "Ricevo lo scatto",
+        "Scontorno e pulisco",
+        "Esporto ogni misura"
+      ],
+      "sub": "Amazon e sito, in un colpo solo, in blocco."
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Un negozio l'ha fatto così.",
+      "sub": "Da una cartella di foto grezze a un pacchetto pronto per Amazon e per il sito, scontornato e in tutte le misure richieste, senza rifarle a mano una a una."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Basta che mi dia le foto.",
+      "sub": "Anche fatte col telefono. Il resto — sfondo, ritaglio, misure — lo faccio io e te le consegno pronte da caricare."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi le tue foto [[pronte]] per Amazon?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "B"
+}

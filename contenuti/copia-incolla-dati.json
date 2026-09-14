@@ -1,0 +1,73 @@
+{
+  "slug": "copia-incolla-dati",
+  "titolo_interno": "L'agente che smette di copiare i dati nel gestionale",
+  "caption": "Ogni mattina copi gli stessi dati da un file al gestionale.\n\nA mano. Riga per riga. È un lavoro che non insegna niente, non decide niente, e ogni tanto sbaglia una cifra. E quell'errore poi si moltiplica ovunque.\n\nIo posso rifare quei gesti al posto tuo: apro il gestionale, inserisco, salvo. Passo per passo, come li fai tu, ma senza stancarmi e senza distrarmi.\n\nHai un copia-incolla che si ripete ogni giorno? DM o link in bio. ✉️\n\n#automazione #gestionale #piccoleimprese #intelligenzaartificiale #agentiAI #ufficio #produttivita #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Ogni mattina copi gli stessi [[dati]] a mano.",
+      "piede": "riga per riga →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Apri il file. Apri il gestionale.",
+      "sub": "E fai la spola: leggi di qua, scrivi di là. Un dato, invio. Un altro dato, invio. Per un'ora buona, ogni giorno."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "È tempo che non torna.",
+      "sub": "Un'ora al giorno è una settimana al mese. Passata a spostare numeri da una finestra all'altra, senza creare niente di nuovo."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E c'è di peggio",
+      "titolo": "Prima o poi sbagli una cifra.",
+      "sub": "E quando il dato nasce sbagliato nel gestionale, l'errore si propaga: sul sito, sui documenti, ovunque. E lo scopri tardi."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "I due programmi non si parlano.",
+      "sub": "Così il ponte lo fai tu, con le dita. Non perché sei lento: perché nessuno ha collegato quei due mondi."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Quei gesti li rifaccio [[io]].",
+      "sub": "Apro il gestionale, inserisco, salvo, chiudo. Passo per passo, come li fai tu. Ma senza distrarmi e senza stancarmi mai."
+    },
+    {
+      "tipo": "pipeline",
+      "occhiello": "Come funziona",
+      "titolo": "Replico la tua procedura.",
+      "passi": [
+        "Leggo il file di partenza",
+        "Riempio i campi giusti",
+        "Salvo e passo al prossimo"
+      ],
+      "sub": "Gli stessi clic che fai tu, uno dopo l'altro, da solo."
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Uno scarico di magazzino l'ho fatto così.",
+      "sub": "Ho replicato passo per passo la procedura manuale dentro il gestionale: causale, codice prodotto, quantità, salva. Gli stessi gesti dell'operatore, in automatico."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Giro sul tuo PC.",
+      "sub": "Uso il gestionale che hai già, con le tue procedure. Non serve cambiare software: imito quello che fai e lo ripeto io."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi smettere di [[ricopiare]] i dati a mano?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "A"
+}

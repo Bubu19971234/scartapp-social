@@ -1,0 +1,73 @@
+{
+  "slug": "scorte-amazon",
+  "titolo_interno": "Scorte allineate tra sito e Amazon",
+  "caption": "Hai appena venduto una cosa che non hai.\n\nSuccede quando sito e Amazon contano il magazzino ognuno per conto suo. Vendi su un canale, l'altro non lo sa, e ti ritrovi a disdire l'ordine e a scusarti con il cliente.\n\nIo tengo un solo magazzino vero. Vendi dove vuoi: le scorte scendono ovunque, nello stesso momento.\n\nVendi su più canali? DM o link in bio. ✉️\n\n#amazon #ecommerce #magazzino #automazione #multicanale #agentiAI #piccoleimprese #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Hai appena venduto una cosa che [[non hai]].",
+      "piede": "e ora tocca scusarsi →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Sito e Amazon contano ognuno per sé.",
+      "sub": "Un pezzo lo vendi sul sito, ma Amazon lo mostra ancora disponibile. Arriva l'ordine. E tu quel pezzo non ce l'hai più."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Disdici, ti scusi, ci rimetti.",
+      "sub": "Il cliente resta deluso, il canale ti penalizza per l'annullamento e tu hai perso tempo su una vendita che non c'era."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E all'inverso",
+      "titolo": "O tieni scorte finte per sicurezza.",
+      "sub": "Così non vendi tutto quello che potresti, per paura di vendere ciò che non hai. In ogni caso ci perdi."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "Nessuno ha un magazzino solo.",
+      "sub": "Ogni canale ha il suo numero. Senza un punto unico che comanda, restano disallineati per forza. E tu insegui."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Il magazzino unico lo tengo [[io]].",
+      "sub": "Uno solo, vero. Vendi dove vuoi: le scorte scendono su tutti i canali nello stesso istante."
+    },
+    {
+      "tipo": "checklist",
+      "occhiello": "Come funziona",
+      "titolo": "Un codice lega tutto.",
+      "voci": [
+        "Lo SKU è la chiave tra sito e Amazon",
+        "Un ordine scala il magazzino ovunque",
+        "Le scorte restano allineate da sole",
+        "Niente più vendite di ciò che non hai"
+      ]
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Un e-commerce l'ha collegato così.",
+      "sub": "Con lo SKU come chiave tra i due canali: verificato che un ordine collegato scala il magazzino, mentre uno con lo SKU non agganciato non lo tocca. Il buco era lì."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Aggancio i canali che hai già.",
+      "sub": "Sito e Amazon restano quelli, ma iniziano a parlarsi tramite il codice prodotto. Tu vendi, io tengo i conti allineati."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi le scorte [[allineate]] ovunque?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "C"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "report-automatici",
+  "titolo_interno": "Il report che si scrive da solo, sempre uguale",
+  "caption": "Ogni tre giorni qualcuno rifà a mano lo stesso report.\n\nApre cinque pannelli diversi, copia i numeri in un foglio, li mette in fila. E ogni volta il report è un po' diverso dal precedente, perché lo fa una persona, a mano.\n\nIo lo preparo io, sempre uguale, quando serve. Un cruscotto solo al posto di cinque schede aperte.\n\nQualcuno da te perde ore così? DM o link in bio. ✉️\n\n#report #dati #automazione #cruscotto #piccoleimprese #agentiAI #controllo #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Ogni tre giorni qualcuno rifà lo stesso [[report]].",
+      "piede": "a mano, da capo →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Cinque pannelli aperti.",
+      "sub": "Uno per la pubblicità, uno per il sito, uno per Amazon. Copi un numero di qua, uno di là, li incolli in un foglio. Ogni volta."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Ore buttate su un lavoro di forbici.",
+      "sub": "Non stai analizzando niente: stai spostando numeri. E quel tempo, sommato ogni tre giorni, diventa enorme."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E c'è di peggio",
+      "titolo": "I numeri non tornano mai.",
+      "sub": "Ogni report è un po' diverso dal precedente. Perché lo fa una persona, a mano, e ogni volta prende i dati in modo un po' suo."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "I dati vivono in posti separati.",
+      "sub": "Nessuno strumento li tiene insieme. Così il lavoro di unirli ricade su una persona, che lo rifà daccapo ogni volta."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Il report lo preparo [[io]].",
+      "sub": "Sempre uguale, sempre con lo stesso metodo, quando serve. Tu lo apri e leggi. Non lo costruisci più."
+    },
+    {
+      "tipo": "checklist",
+      "occhiello": "Come funziona",
+      "titolo": "Un cruscotto al posto di cinque schede.",
+      "voci": [
+        "Prendo i numeri dalle fonti giuste",
+        "Li metto sempre nello stesso schema",
+        "Aggiorno da solo, ogni tot giorni",
+        "Tu apri e leggi, niente forbici"
+      ]
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Un e-commerce l'ha impostato così.",
+      "sub": "Un report sulle campagne pubblicitarie generato in automatico ogni pochi giorni, sempre con lo stesso schema, invece di rifarlo a mano saltando tra i vari pannelli."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Mi collego alle tue fonti.",
+      "sub": "Gli strumenti che usi già. Li leggo io e ti restituisco un cruscotto unico, uguale ogni volta, senza che nessuno apra più cinque schede."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi un report che si scrive da [[solo]]?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "A"
+}

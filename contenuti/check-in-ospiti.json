@@ -1,0 +1,73 @@
+{
+  "slug": "check-in-ospiti",
+  "titolo_interno": "Il check-in ospiti che si fa da solo",
+  "caption": "Ogni ospite, lo stesso scambio infinito di messaggi.\n\nDocumenti da chiedere, codici da mandare, istruzioni per entrare da riscrivere per l'ennesima volta. E i documenti finiscono persi tra le chat.\n\nIo raccolgo tutto in un form: l'ospite carica i dati, e a schermo compaiono i suoi codici e le istruzioni. Tu non tocchi il telefono.\n\nGestisci affitti o una struttura? DM o link in bio. ✉️\n\n#affittibrevi #strutturericettive #checkin #automazione #ospitalita #agentiAI #piccoleimprese #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Ogni ospite, lo stesso scambio [[infinito]] di messaggi.",
+      "piede": "documenti, codici, istruzioni →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Chiedi i documenti. Aspetti.",
+      "sub": "Poi mandi i codici, riscrivi come si entra, rispondi alle stesse domande. Per ogni ospite, da capo, sul telefono."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Sei di guardia alla chat.",
+      "sub": "L'ospite scrive di sera, nel weekend, all'ultimo minuto. E se non rispondi subito, non entra. Così sei sempre reperibile."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E i documenti?",
+      "titolo": "Si perdono tra le chat.",
+      "sub": "Foto di carte d'identità sparse tra decine di conversazioni. Quando ti servono, non li trovi. E vanno conservati bene."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "La chat non è fatta per questo.",
+      "sub": "È un canale per parlare, non per raccogliere dati in ordine. Usarla per il check-in significa rifare tutto a mano ogni volta."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Il check-in lo gestisco [[io]].",
+      "sub": "Un form dedicato: l'ospite carica i documenti e riceve subito, a schermo, i suoi codici e le istruzioni per entrare."
+    },
+    {
+      "tipo": "pipeline",
+      "occhiello": "Come funziona",
+      "titolo": "Dall'arrivo all'ingresso, da solo.",
+      "passi": [
+        "L'ospite compila il form",
+        "Carica i documenti",
+        "Vede codici e istruzioni"
+      ],
+      "sub": "Tu non tocchi il telefono. I dati restano in ordine, non nelle chat."
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Una struttura con più appartamenti l'ha fatto così.",
+      "sub": "Form con caricamento documenti, codici e istruzioni mostrati a schermo dopo la compilazione, e le notti lette in automatico dal calendario delle prenotazioni. Senza più chat."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Si adatta ai tuoi alloggi.",
+      "sub": "Ogni appartamento ha i suoi codici e le sue istruzioni. L'ospite riceve i suoi, giusti, in automatico. Tu li accogli senza scrivere."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi un check-in che si fa da [[solo]]?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "B"
+}

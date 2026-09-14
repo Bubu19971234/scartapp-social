@@ -60,12 +60,9 @@ def testo_marcato(s):
     )
 
 
-def logo(bianco=False):
-    """Marchio 'su': quadrato viola arrotondato + quadratino verde. Su fondo
-    scuro/viola diventa bianco con testo viola."""
-    if bianco:
-        return ('<span class="logo logo--bianco">su</span>'
-                f'<span class="marchio">{esc(MARCHIO)}</span>')
+def logo():
+    """Marchio 'su': quadrato arrotondato + quadratino verde. I colori del
+    quadrato arrivano da --logo-bg/--logo-fg (cambiano con lo stile/fondo)."""
     return ('<span class="logo">su</span>'
             f'<span class="marchio">{esc(MARCHIO)}</span>')
 
@@ -79,17 +76,16 @@ body{{padding:96px 90px;display:flex;flex-direction:column;
      font-family:'Poppins','Segoe UI',system-ui,sans-serif;-webkit-font-smoothing:antialiased}}
 
 .top{{display:flex;align-items:center;gap:20px}}
-.logo{{width:64px;height:64px;border-radius:18px;background:{VIOLA};color:#fff;position:relative;
+.logo{{width:64px;height:64px;border-radius:18px;background:var(--logo-bg);color:var(--logo-fg);position:relative;
       display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px;letter-spacing:-1px}}
 .logo::after{{content:"";position:absolute;top:9px;right:9px;width:15px;height:15px;border-radius:4px;background:{VERDE}}}
-.logo--bianco{{background:#fff;color:{VIOLA}}}
 .marchio{{font-size:30px;font-weight:700;letter-spacing:-.5px}}
 
 .centro{{flex:1;display:flex;flex-direction:column;justify-content:center;gap:34px}}
 .centro--cover{{align-items:center;text-align:center;gap:40px}}
 
 .occhiello{{font-size:27px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--occ)}}
-.titolo{{font-weight:800;line-height:1.08;letter-spacing:-.02em;font-size:70px}}
+.titolo{{font-weight:800;line-height:1.08;letter-spacing:-.02em;font-size:70px;color:var(--titolo)}}
 .titolo--cover{{font-size:96px}}
 .sub{{font-size:37px;line-height:1.42;font-weight:500;color:var(--sub)}}
 
@@ -100,7 +96,7 @@ body{{padding:96px 90px;display:flex;flex-direction:column;
 .scorri{{margin-left:auto;font-size:26px;letter-spacing:.06em;font-weight:600}}
 
 .pipe{{display:flex;align-items:center;gap:16px;margin:8px 0}}
-.pipe .st{{flex:1;background:{LILLA};border-radius:20px;padding:34px 10px;text-align:center;
+.pipe .st{{flex:1;background:var(--chip-bg);border-radius:20px;padding:34px 10px;text-align:center;
          font-size:34px;font-weight:700;color:{VIOLA}}}
 .pipe .ar{{color:{VERDE_SCURO};font-weight:800;font-size:44px}}
 
@@ -114,19 +110,35 @@ body{{padding:96px 90px;display:flex;flex-direction:column;
 """
 
 
-# --- Fondi per tipo di slide (direzione B) ----------------------------------
-def _stili_fondo(tipo):
+# --- Fondi per stile x tipo di slide ----------------------------------------
+# Tre stili per variare il piano editoriale:
+#   A = bianco pulito (cover bianca, titolo viola)
+#   B = cover viola piena, interni bianchi (default)
+#   C = lilla soft (cover e interni su lilla)
+# lb/lf = colori del quadrato logo (cambiano su fondo scuro/chiaro).
+def _fondi(stile, tipo):
+    inner_bg = LILLA if stile == "C" else BIANCO
+    inner = {"bg": inner_bg, "testo": INK, "titolo": INK, "occ": VIOLA,
+             "sub": MUTE, "piede": MUTE, "lb": VIOLA, "lf": "#fff"}
     if tipo == "cover":
-        return {"bg": VIOLA, "testo": "#fff", "occ": "#CDBEF6", "sub": "#E4DAFB", "piede": "#D9CCFA"}
+        if stile == "B":
+            return {"bg": VIOLA, "testo": "#fff", "titolo": "#fff", "occ": "#CDBEF6",
+                    "sub": "#E4DAFB", "piede": "#D9CCFA", "lb": "#fff", "lf": VIOLA}
+        bg = LILLA if stile == "C" else BIANCO
+        return {"bg": bg, "testo": INK, "titolo": VIOLA, "occ": VIOLA,
+                "sub": MUTE, "piede": MUTE, "lb": VIOLA, "lf": "#fff"}
     if tipo == "cta":
-        return {"bg": INK, "testo": "#fff", "occ": VERDE, "sub": "#C9BEEA", "piede": "#C9BEEA"}
+        return {"bg": INK, "testo": "#fff", "titolo": "#fff", "occ": VERDE,
+                "sub": "#C9BEEA", "piede": "#C9BEEA", "lb": "#fff", "lf": VIOLA}
     if tipo == "prova":
-        return {"bg": LILLA, "testo": INK, "occ": VIOLA, "sub": INK, "piede": MUTE}
-    return {"bg": BIANCO, "testo": INK, "occ": VIOLA, "sub": MUTE, "piede": MUTE}
+        bg = BIANCO if stile == "C" else LILLA
+        return {"bg": bg, "testo": INK, "titolo": INK, "occ": VIOLA,
+                "sub": INK, "piede": MUTE, "lb": VIOLA, "lf": "#fff"}
+    return inner
 
 
 def _cover(s):
-    piede = (f'<div class="piede">{logo(bianco=True)}'
+    piede = (f'<div class="piede">{logo()}'
              f'<span class="scorri">{esc(s.get("piede", "scorri →"))}</span></div>')
     return ("", f'<div class="centro centro--cover">'
                 f'<div class="occhiello">{esc(s.get("occhiello", ""))}</div>'
@@ -173,22 +185,24 @@ def _cta(s):
                 f'<div class="occhiello">{esc(s.get("occhiello",""))}</div>'
                 f'<div class="titolo titolo--cover" style="font-size:78px">{testo_marcato(s["titolo"])}</div>'
                 f'{azione}</div>'
-                f'<div class="piede" style="justify-content:center">{logo(bianco=True)}</div>')
+                f'<div class="piede" style="justify-content:center">{logo()}</div>')
 
 
 RENDERER = {"cover": _cover, "testo": _testo, "pipeline": _pipeline,
             "checklist": _checklist, "prova": _prova, "cta": _cta}
 
 
-def documento(slide):
+def documento(slide, stile="B"):
     tipo = slide["tipo"]
     if tipo not in RENDERER:
         raise ValueError(f"tipo slide sconosciuto: {tipo} (ammessi: {', '.join(RENDERER)})")
-    f = _stili_fondo(tipo)
+    f = _fondi(stile, tipo)
     _, corpo = RENDERER[tipo](slide)
     testata = "" if tipo in ("cover", "cta") else f'<div class="top">{logo()}</div>'
-    body_style = (f"background:{f['bg']};color:{f['testo']};"
-                  f"--occ:{f['occ']};--sub:{f['sub']};--piede:{f['piede']}")
+    chip = "#FFFFFF" if f["bg"] == LILLA else LILLA
+    body_style = (f"background:{f['bg']};color:{f['testo']};--titolo:{f['titolo']};"
+                  f"--occ:{f['occ']};--sub:{f['sub']};--piede:{f['piede']};"
+                  f"--logo-bg:{f['lb']};--logo-fg:{f['lf']};--chip-bg:{chip}")
     return (f'<!DOCTYPE html><html lang="it"><head><meta charset="utf-8">'
             f'<style>{css()}</style></head><body style="{body_style}">'
             f'{testata}{corpo}</body></html>')
@@ -196,9 +210,10 @@ def documento(slide):
 
 def genera(percorso, chrome):
     post = json.loads(percorso.read_text(encoding="utf-8"))
+    stile = post.get("stile", "B")
     fatti = []
     for i, slide in enumerate(post["slides"], 1):
-        doc = documento(slide)
+        doc = documento(slide, stile)
         nome = f"{post['slug']}_{i:02d}"
         htmlp, pngp = IMG / f"{nome}.html", IMG / f"{nome}.png"
         htmlp.write_text(doc, encoding="utf-8")

@@ -1,0 +1,73 @@
+{
+  "slug": "spedizioni-tracking",
+  "titolo_interno": "Etichette e tracking senza copia-incolla",
+  "caption": "«Dov'è il mio pacco?»\n\nOgni volta molli tutto, apri il gestionale, cerchi il tracking, lo incolli nella chat. Dieci volte al giorno. E prima ancora hai generato le etichette una a una, ricopiando gli indirizzi nel sito del corriere.\n\nIo faccio partire l'etichetta dall'ordine con un bottone. E il tracking ce l'ha già il cliente, prima che te lo chieda.\n\nVuoi smettere di fare il ponte a mano? DM o link in bio. ✉️\n\n#spedizioni #ecommerce #logistica #automazione #piccoleimprese #agentiAI #tracking #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "«Dov'è il mio [[pacco]]?»",
+      "piede": "dieci volte al giorno →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Mezza giornata se ne va così.",
+      "sub": "Generi le etichette una a una, copiando gli indirizzi dal gestionale al sito del corriere. Poi arrivano i messaggi."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Ogni «dov'è il pacco» ti ferma.",
+      "sub": "Molli quello che stavi facendo, apri il gestionale, cerchi il tracking, lo incolli in chat. Poi ricominci. E riparte."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E all'estero",
+      "titolo": "Fuori dall'Italia è peggio.",
+      "sub": "Codici nazione, documenti doganali, pesi e colli che cambiano ogni volta. Un errore e il pacco si ferma in dogana."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "Fai il ponte a mano tra due sistemi.",
+      "sub": "Il gestionale sa l'ordine. Il corriere vuole l'etichetta. In mezzo ci sei tu, che ricopi. Tutto il giorno."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "L'etichetta la faccio [[io]].",
+      "sub": "Dall'ordine, con un bottone. Senza reinserire un indirizzo. E il tracking torna da solo nell'ordine."
+    },
+    {
+      "tipo": "pipeline",
+      "occhiello": "Come funziona",
+      "titolo": "Dall'ordine al corriere, dritto.",
+      "passi": [
+        "Leggo l'ordine",
+        "Genero l'etichetta",
+        "Aggancio il tracking"
+      ],
+      "sub": "Multicollo, estero e pesi diversi li gestisco io, dall'ordine."
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Un e-commerce che spedisce bottiglie l'ha collegato così.",
+      "sub": "Etichetta e tracking generati dall'ordine con un bottone; riconoscimento estero e multicollo gestiti, senza reinserire i dati nel sito del corriere."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Si aggancia al tuo negozio.",
+      "sub": "L'etichetta parte dall'ordine, il tracking finisce dentro l'ordine e il cliente lo vede prima di scriverti. Tu spedisci e basta."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi che le spedizioni partano da [[sole]]?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "C"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "margine-per-prodotto",
+  "titolo_interno": "Il margine vero, prodotto per prodotto",
+  "caption": "Vendi tanto. Ma quali prodotti ti fanno davvero guadagnare?\n\nLa maggior parte non lo sa. Perché il margine vero non è prezzo meno costo: è prezzo meno costo meno commissione del canale meno spedizione. E quel conto, a mano, non lo fa nessuno.\n\nIo sì. Prodotto per prodotto, ti dico dove guadagni e dove stai lavorando gratis.\n\nVuoi vedere il tuo? Scrivimi in DM o dal link in bio. ✉️\n\n#margine #ecommerce #piccoleimprese #automazione #intelligenzaartificiale #agentiAI #datiaziendali #pmi",
+  "slides": [
+    {
+      "tipo": "cover",
+      "occhiello": "Scart Up · 1/10",
+      "titolo": "Vendi tanto. Ma [[quali]] prodotti ti fanno guadagnare?",
+      "piede": "quasi nessuno lo sa →"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La scena",
+      "titolo": "Guardi il fatturato e sorridi.",
+      "sub": "Il totale sale. Ma dentro quel numero ci sono prodotti che ti arricchiscono e prodotti che ti stanno prosciugando. Mescolati."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Il costo nascosto",
+      "titolo": "Il margine non è prezzo meno costo.",
+      "sub": "È prezzo, meno costo, meno commissione del canale, meno spedizione. Il vero guadagno vive là sotto."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E allora",
+      "titolo": "Vendi di più proprio ciò su cui perdi.",
+      "sub": "Perché magari costa poco e piace. Ma dopo commissioni e spedizione, a fine mese non ti resta niente."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Non è colpa tua",
+      "titolo": "Quel conto a mano non lo fa nessuno.",
+      "sub": "Su 500 prodotti è impossibile. Così decidi a naso su cosa spingere. E il naso, sui margini, sbaglia."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "La svolta",
+      "titolo": "Il conto lo faccio [[io]].",
+      "sub": "Prodotto per prodotto. Ti dico dove guadagni e dove stai lavorando gratis. Ogni giorno, aggiornato."
+    },
+    {
+      "tipo": "checklist",
+      "occhiello": "Come funziona",
+      "titolo": "Metto insieme i pezzi che tu tieni separati.",
+      "voci": [
+        "Costo del prodotto dal gestionale",
+        "Commissione del canale su cui vendi",
+        "Spedizione reale, non stimata",
+        "= margine vero per ogni SKU"
+      ]
+    },
+    {
+      "tipo": "prova",
+      "occhiello": "La prova",
+      "titolo": "Un e-commerce di vini l'ha scoperto così.",
+      "sub": "Unendo costo, commissioni e spedizione per ogni etichetta è emerso il margine reale per prodotto: alcuni best seller rendevano molto meno del previsto."
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "E da me come si fa?",
+      "titolo": "Leggo i tuoi dati dove già stanno.",
+      "sub": "Gestionale, canali, listino spedizioni. Li incrocio io e ti restituisco una lista ordinata: dal prodotto più redditizio all'ultimo."
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Ne hai bisogno?",
+      "titolo": "Vuoi sapere quali prodotti ti fanno [[guadagnare]]?",
+      "azione": "DM o link in bio"
+    }
+  ],
+  "stile": "A"
+}
