@@ -1,0 +1,13 @@
+{
+  "nota": "Piano editoriale Scart Up: un carosello ogni 2 giorni. Il cron pubblica lo slug la cui data == oggi (fuso Europe/Rome). auto-poster è già uscito il 14/09 a mano.",
+  "uscite": [
+    { "data": "2026-09-16", "slug": "spedizioni-tracking" },
+    { "data": "2026-09-18", "slug": "margine-per-prodotto" },
+    { "data": "2026-09-20", "slug": "risposte-whatsapp" },
+    { "data": "2026-09-22", "slug": "foto-amazon" },
+    { "data": "2026-09-24", "slug": "copia-incolla-dati" },
+    { "data": "2026-09-26", "slug": "check-in-ospiti" },
+    { "data": "2026-09-28", "slug": "scorte-amazon" },
+    { "data": "2026-09-30", "slug": "report-automatici" }
+  ]
+}

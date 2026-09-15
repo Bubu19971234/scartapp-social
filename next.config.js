@@ -6,6 +6,7 @@ module.exports = {
     outputFileTracingIncludes: {
       '/api/pubblica': ['./contenuti/**'],
       '/api/verifica': ['./contenuti/**'],
+      '/api/cron': ['./contenuti/**'],
     },
   },
 }
