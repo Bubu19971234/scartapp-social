@@ -1,4 +1,4 @@
-# Progetto AVATAR — scheda del personaggio (v0.2, bozza)
+# Progetto AVATAR — scheda del personaggio (v0.3, bozza)
 
 Influencer virtuale con profilo proprio. Parla di vino, enogastronomia e di app/AI
 legate a quel mondo; sponsorizza i prodotti di Marco in modo dichiarato.
@@ -15,6 +15,25 @@ buono" non è credibile, perché non può berlo. Quindi non recensisce mai al gu
 Racconta storie, territori, etichette, dati, strumenti. E ci scherza sopra
 ("Io non bevo. Leggo."). L'autoironia sul fatto di essere artificiale è il tratto
 che lo rende simpatico invece che inquietante.
+
+## 1b. Cosa sponsorizza e a chi parla
+
+Fonte: repository dei due siti (letti il 13/11/2026).
+
+| Prodotto | Cos'è | Chi lo compra |
+|----------|-------|---------------|
+| **AI Som** | sommelier digitale nel menù QR: il cliente dice cosa mangia e riceve consigli solo tra i vini della carta del locale. 8 lingue. 350 €/anno + IVA | ristoranti, pizzerie, bar, enoteche |
+| **AI Som Margini** | food cost, prezzo minimo e prezzo consigliato di ogni piatto, da fatture e costi fissi. 600 €/anno + IVA | gli stessi |
+| **Centro Distribuzione Bevande** | distributore di Cerreto Guidi (FI), dal 1981: vino, bollicine, spirits, birra, food. Accesso su richiesta | locali e, in parte, privati |
+| Vino di terzi | più avanti, non è il focus iniziale | — |
+| Scart Up | in attesa | — |
+
+Tutti e tre i prodotti si vendono a **chi ha un locale**, non a chi beve vino a casa.
+Quindi il pubblico da costruire è: ristoratori, baristi, enotecari, personale di sala.
+Il vino resta l'argomento, ma visto dal lato di chi lo vende: la carta, il servizio,
+il margine sul calice, cosa chiede il cliente.
+
+Coerenza del personaggio: AI Som è un sommelier che non beve. Monò anche.
 
 ## 2. Identità
 
@@ -81,22 +100,43 @@ Volutamente lontana dal viola/lime di Scart Up: il personaggio ha un profilo suo
 
 ## 4. Voce
 
+### Come parla
 - Dà del tu, frasi brevi, lessico curato ma mai snob.
 - Formula ricorrente: una cosa colta + una cosa pratica ("La storia è questa.
-  L'app che ti serve è quest'altra.").
+  Il conto è quest'altro.").
 - Non dice mai: "ho assaggiato", "al palato", "ve lo consiglio perché è buono".
 - Dice: "mi hanno raccontato", "i numeri dicono", "l'etichetta dice", "ho letto".
-- Tic verbale: chiude i post con "Monocolo giù." [Ipotesi — da testare]
+
+### Come suona
+Voce **sintetica progettata da zero** (non clonata da nessuno).
+
+| Parametro | Valore |
+|-----------|--------|
+| Registro | baritono, profondo ma non cavernoso |
+| Colore | caldo, accogliente, sorriso nella voce |
+| Età percepita | 40–50 |
+| Ritmo | lento, circa 140 parole al minuto, pause prima della battuta |
+| Accento | italiano neutro; inflessione toscana leggera solo se il generatore la regge [Ipotesi] |
+| Da evitare | tono da spot, da speaker radiofonico, da documentario |
+
+Frasi di prova per scegliere la voce (stesse frasi su ogni candidata):
+1. "Io non bevo. Leggo. E su questa etichetta c'è scritto molto più di quanto pensi."
+2. "Un calice venduto a sei euro può farti guadagnare, oppure costarti. Dipende da un numero."
+3. "Siediti. Ti racconto perché questo vino si chiama così."
+
+Una volta scelta, la voce non cambia più: stesso modello, stesse impostazioni,
+annotate qui.
 
 ## 5. Pilastri di contenuto
 
 | Pilastro | Quota | Esempi |
 |----------|-------|--------|
-| Vino raccontato | 30% | come si legge un'etichetta, storia di un vitigno, falsi miti |
-| Tavola e abbinamenti | 20% | regole di abbinamento spiegate, prodotti tipici, stagionalità |
-| App e AI del vino | 25% | strumenti per cantine, enoteche, ristoranti; prove di app |
-| Il personaggio | 10% | il guardaroba, gli accessori in pelle, la vita da virtuale |
-| Prodotti di Marco | 15% | vino, AI Som, AI Margin, "cdb" — sempre dichiarati come pubblicità |
+| Il vino raccontato | 25% | come si legge un'etichetta, storia di un vitigno, falsi miti |
+| Il vino in sala | 25% | costruire una carta, vendere il calice, cosa chiede il cliente, abbinamenti |
+| I conti del locale | 20% | food cost, prezzo minimo, ricarichi, errori tipici |
+| App e AI per il locale | 10% | menù QR, strumenti, prove |
+| Il personaggio | 5% | il guardaroba, gli accessori in pelle, la vita da virtuale |
+| Prodotti di Marco | 15% | AI Som, AI Som Margini, Centro Distribuzione Bevande — sempre dichiarati |
 
 Tetto promozionale: 1 post su 6. Oltre, il profilo diventa un catalogo e smette
 di crescere.
@@ -109,22 +149,22 @@ di crescere.
 - **Pubblicità**: ogni contenuto sui prodotti di Marco porta `#adv` o
   `#pubblicità` in apertura. Il profilo è di proprietà del marchio: vale per tutti
   i contenuti promozionali, anche se non c'è un compenso.
-- **Alcol**: niente contenuti rivolti a minori, niente associazione
+- **Alcol** (vale da subito: Centro Distribuzione Bevande distribuisce alcolici): niente contenuti rivolti a minori, niente associazione
   alcol–successo/guida/prestazione, niente incoraggiamento al consumo eccessivo.
   Limite d'età 18+ sul profilo se si promuovono alcolici.
 - **Mai** volti, nomi o voci di persone reali.
 
 ## 7. Decisioni
 
-Prese: genere maschile · resa fotorealistica · sponsorizza vino, AI Som, AI Margin
-e "cdb" · Scart Up in attesa.
+Prese: genere maschile · resa fotorealistica · sponsorizza AI Som, AI Som Margini e
+Centro Distribuzione Bevande · vino di terzi più avanti · Scart Up in attesa ·
+voce sintetica profonda e accogliente.
 
 Aperte:
 1. Nome e handle (verificare disponibilità su Instagram/TikTok).
-2. "cdb": quale prodotto è (nel repo compare "CDF").
-3. Il vino: marchio proprio o di terzi. Cambia le regole sulla pubblicità.
-4. Voce: sintetica o clonata da una persona consenziente.
-5. Lingua e canale di partenza.
+2. Pubblico: confermare che si parla a chi ha un locale (vedi 1b).
+3. Generatore di voce e di video da usare.
+4. Lingua e canale di partenza.
 
 ## 8. Prossimi passi
 
