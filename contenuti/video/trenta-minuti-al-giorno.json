@@ -1,0 +1,81 @@
+{
+  "slug": "trenta-minuti-al-giorno",
+  "serie": "AI in azienda",
+  "titolo_interno": "Ep. 2 — Cosa valgono 30 minuti al giorno: il conto (dichiarato come ipotesi)",
+  "caption": "Cosa valgono 30 minuti al giorno?\n\nFacciamo un conto prudente: l'AI ti toglie solo mezz'ora di lavoro ripetitivo al giorno.\n\n30 minuti × 220 giorni lavorativi = 110 ore l'anno.\nQuasi 14 giornate di lavoro. Per persona.\n\nIn un team di cinque: 550 ore.\n\nÈ un conto, non una promessa: i 30 minuti sono un'ipotesi. Rifallo con i tuoi numeri — minuti al giorno × giorni lavorati × persone.\n\nLo facciamo sulla tua azienda? DM o link in bio. ✉️\n\n#intelligenzaartificiale #AI #produttività #pmi #piccoleimprese #automazione #tempo #agentiAI",
+  "linkedin": "Cosa valgono 30 minuti al giorno?\n\nQuando si parla di AI in azienda si citano sempre percentuali enormi. Io preferisco un conto piccolo, che chiunque può rifare.\n\nIpotesi prudente: l'AI toglie a una persona mezz'ora al giorno di lavoro ripetitivo. Un riepilogo di riunione, due email, un dato copiato da un file all'altro.\n\n30 minuti × 220 giorni lavorativi = 110 ore l'anno.\nDivise per 8: quasi 14 giornate di lavoro. Per persona.\n\nIn un team di cinque sono 550 ore: più di tre mesi di lavoro di una persona.\n\nDue avvertenze, perché il conto resti onesto:\n• i 30 minuti sono un'ipotesi, non un dato misurato. Vanno misurati sul lavoro vero\n• il tempo risparmiato non vale niente se non si decide prima dove reinvestirlo\n\nLa formula è questa: minuti al giorno × giorni lavorati × persone.\n\nSe la rifate con i vostri numeri, che cifra esce?\n\n#intelligenzaartificiale #produttività #pmi #automazione",
+  "scene": [
+    {
+      "tipo": "hook",
+      "occhiello": "Facciamo un conto",
+      "titolo": "Cosa valgono [[30 minuti]] al giorno?",
+      "durata": 3.4,
+      "sfondo": "30'"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Un'ipotesi prudente",
+      "titolo": "L'AI ti toglie solo mezz'ora.",
+      "sub": "Un riepilogo di riunione, due email, un dato copiato da un file all'altro.",
+      "durata": 4.2,
+      "sfondo": "TEMPO"
+    },
+    {
+      "tipo": "calcolo",
+      "occhiello": "Il conto",
+      "titolo": "Per una persona, in un anno.",
+      "righe": [
+        {
+          "valore": "30 min",
+          "etichetta": "al giorno"
+        },
+        {
+          "valore": "× 220",
+          "etichetta": "giorni lavorativi"
+        },
+        {
+          "valore": "= 110 ore",
+          "etichetta": "l'anno",
+          "risultato": true
+        }
+      ],
+      "durata": 5.4
+    },
+    {
+      "tipo": "numero",
+      "occhiello": "110 ore ÷ 8",
+      "prefisso": "≈ ",
+      "valore": 14,
+      "etichetta": "giornate di lavoro l'anno.",
+      "sub": "Per [[una]] persona.",
+      "durata": 4.4,
+      "sfondo": "GIORNI"
+    },
+    {
+      "tipo": "numero",
+      "tema": "viola",
+      "occhiello": "In un team di cinque",
+      "valore": 550,
+      "etichetta": "ore l'anno.",
+      "sub": "Più di tre mesi di lavoro di una persona.",
+      "durata": 4.4,
+      "sfondo": "ORE"
+    },
+    {
+      "tipo": "testo",
+      "tema": "ink",
+      "occhiello": "Attenzione",
+      "titolo": "È un conto, non una [[promessa]].",
+      "sub": "Rifallo con i tuoi numeri: minuti al giorno × giorni lavorati × persone.",
+      "durata": 4.8
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Scart Up",
+      "titolo": "Facciamo il [[conto]] sulla tua azienda?",
+      "azione": "DM o link in bio",
+      "durata": 4,
+      "tema": "viola"
+    }
+  ]
+}

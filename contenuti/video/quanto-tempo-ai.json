@@ -1,0 +1,89 @@
+{
+  "slug": "quanto-tempo-ai",
+  "serie": "AI in azienda",
+  "titolo_interno": "Ep. 1 — Quanto tempo fa risparmiare davvero l'AI: tre studi, non promesse",
+  "caption": "Quanto tempo fa risparmiare davvero l'AI al lavoro?\n\nNon le promesse dei venditori: tre studi su persone vere.\n\n→ Scrivere testi di lavoro: 40% di tempo in meno, qualità +18% (Noy & Zhang, Science 2023).\n→ Assistenza clienti: +14% di richieste risolte ogni ora, +34% per chi è alle prime armi (Brynjolfsson, Li, Raymond, NBER 2023).\n→ Consulenza: 25% più veloci sui compiti adatti (Dell'Acqua e altri, Harvard Business School 2023).\n\nE l'altra metà della verità: sui compiti non adatti, chi usava l'AI sbagliava di più. Conta dove la metti.\n\nVuoi capire dove ti serve davvero? DM o link in bio. ✉️\n\n#intelligenzaartificiale #AI #produttività #pmi #piccoleimprese #automazione #agentiAI #lavoro",
+  "linkedin": "Quanto tempo fa risparmiare davvero l'AI al lavoro?\n\nSono andato a rileggere gli studi, non le slide dei venditori. Tre esperimenti su persone vere:\n\n1. Scrivere testi di lavoro (email, relazioni, comunicati): 40% di tempo in meno e qualità giudicata più alta del 18%. 453 professionisti. Noy & Zhang, Science, 2023.\n\n2. Assistenza clienti: +14% di richieste risolte ogni ora. Per chi era alle prime armi, +34%. Per i più esperti, quasi niente. 5.179 operatori. Brynjolfsson, Li, Raymond, NBER, 2023.\n\n3. Consulenza: 25% più veloci e 12% di compiti in più portati a termine. 758 consulenti BCG. Dell'Acqua e altri, Harvard Business School, 2023.\n\nPoi c'è il dato che di solito viene tagliato dalle presentazioni. Nello stesso studio di Harvard, su un compito che l'AI non sapeva fare bene, chi la usava ha dato 19 punti percentuali in meno di risposte corrette rispetto a chi lavorava da solo.\n\nTre cose che mi porto a casa:\n• il guadagno è reale, ma dipende dal compito\n• aiuta di più chi è meno esperto\n• messa nel posto sbagliato, peggiora il risultato\n\nLa domanda utile non è \"usiamo l'AI?\" ma \"su quale lavoro, esattamente?\".\n\nVoi da quale attività siete partiti?\n\n#intelligenzaartificiale #produttività #pmi #automazione",
+  "scene": [
+    {
+      "tipo": "hook",
+      "occhiello": "I numeri, non le promesse",
+      "titolo": "Quanto tempo ti fa risparmiare [[davvero]] l'AI?",
+      "durata": 3.6,
+      "sfondo": "AI"
+    },
+    {
+      "tipo": "testo",
+      "occhiello": "Da dove arrivano",
+      "titolo": "Tre studi su persone vere.",
+      "sub": "Professionisti al lavoro, metà con l'AI e metà senza. Poi si confronta.",
+      "durata": 3.8,
+      "sfondo": "STUDI"
+    },
+    {
+      "tipo": "confronto",
+      "occhiello": "1 · Scrivere",
+      "titolo": "Email, relazioni, comunicati.",
+      "barre": [
+        {
+          "etichetta": "Tempo senza AI",
+          "valore": 100,
+          "testo": "100"
+        },
+        {
+          "etichetta": "Tempo con l'AI",
+          "valore": 60,
+          "testo": "60",
+          "evidenzia": true
+        }
+      ],
+      "badge": "−40% di tempo",
+      "sub": "E la qualità sale del 18%.",
+      "fonte": "Noy & Zhang, Science, 2023 · 453 professionisti",
+      "durata": 5.6,
+      "sfondo": "−40%"
+    },
+    {
+      "tipo": "numero",
+      "occhiello": "2 · Assistenza clienti",
+      "prefisso": "+",
+      "valore": 14,
+      "suffisso": "%",
+      "etichetta": "richieste risolte ogni ora.",
+      "sub": "Per chi è alle prime armi: [[+34%]].",
+      "fonte": "Brynjolfsson, Li, Raymond, NBER, 2023 · 5.179 operatori",
+      "durata": 4.8,
+      "sfondo": "+14%"
+    },
+    {
+      "tipo": "numero",
+      "occhiello": "3 · Consulenza",
+      "tema": "viola",
+      "prefisso": "+",
+      "valore": 25,
+      "suffisso": "%",
+      "etichetta": "di velocità sui compiti adatti.",
+      "sub": "E il 12% di compiti in più portati a termine.",
+      "fonte": "Dell'Acqua e altri, Harvard Business School, 2023 · 758 consulenti",
+      "durata": 4.8,
+      "sfondo": "+25%"
+    },
+    {
+      "tipo": "testo",
+      "tema": "ink",
+      "occhiello": "L'altra metà della verità",
+      "titolo": "Sui compiti sbagliati, l'AI fa sbagliare [[di più]].",
+      "sub": "Stesso studio: 19 punti in meno di risposte corrette. Conta dove la metti.",
+      "durata": 5,
+      "sfondo": "ATTENZIONE"
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Scart Up",
+      "titolo": "Vuoi capire [[dove]] ti serve davvero?",
+      "azione": "DM o link in bio",
+      "durata": 4,
+      "tema": "viola"
+    }
+  ]
+}

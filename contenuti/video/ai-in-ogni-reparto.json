@@ -1,0 +1,94 @@
+{
+  "slug": "ai-in-ogni-reparto",
+  "serie": "AI in azienda",
+  "titolo_interno": "Ep. 3 — Dove entra l'AI in un'azienda normale: otto applicazioni, reparto per reparto",
+  "caption": "Dove entra l'AI in un'azienda normale?\n\nNon serve un laboratorio. Serve un lavoro che si ripete.\n\nAmministrazione → legge le fatture e le registra\nVendite → prepara preventivi e solleciti\nAssistenza → risponde alle domande di sempre\nMarketing → scrive la prima bozza di post e schede\nMagazzino → avvisa prima che finiscano le scorte\nAcquisti → confronta i listini dei fornitori\nRiunioni → scrive verbale e cose da fare\nDirezione → report pronto ogni lunedì\n\nLa regola per scegliere da dove partire: si ripete ogni settimana, segue sempre gli stessi passi, oggi lo fa una persona a mano.\n\nQual è il tuo? Scrivimelo in DM. ✉️\n\n#intelligenzaartificiale #AI #automazione #pmi #piccoleimprese #agentiAI #produttività #processi",
+  "linkedin": "\"Sì, ma nella mia azienda l'AI dove la metto?\"\n\nÈ la domanda che sento più spesso. La risposta non è una tecnologia, è un elenco di lavori che si ripetono:\n\n• Amministrazione: leggere le fatture e registrarle\n• Vendite: preparare preventivi e solleciti\n• Assistenza: rispondere alle domande di sempre\n• Marketing: la prima bozza di post e schede prodotto\n• Magazzino: avvisare prima che finiscano le scorte\n• Acquisti: confrontare i listini dei fornitori\n• Riunioni: verbale e cose da fare\n• Direzione: il report pronto ogni lunedì\n\nNessuno di questi è spettacolare. Sono tutti lavori di forbici e colla che oggi occupano persone capaci di fare altro.\n\nPer scegliere da dove partire uso tre domande:\n1. Si ripete ogni settimana?\n2. Segue sempre gli stessi passi?\n3. Oggi lo fa una persona a mano?\n\nTre sì: è un buon primo candidato. Se invece ogni caso è diverso e serve giudizio, l'AI affianca, non sostituisce.\n\nQual è il lavoro ripetitivo che nella vostra azienda nessuno vuole fare?\n\n#intelligenzaartificiale #automazione #pmi #processi",
+  "scene": [
+    {
+      "tipo": "hook",
+      "occhiello": "Reparto per reparto",
+      "titolo": "Dove entra l'AI in un'azienda [[normale]]?",
+      "durata": 3.6,
+      "sfondo": "AI"
+    },
+    {
+      "tipo": "griglia",
+      "occhiello": "Davanti al cliente",
+      "titolo": "Quattro lavori che si ripetono.",
+      "carte": [
+        {
+          "etichetta": "Amministrazione",
+          "testo": "Legge le fatture e le registra",
+          "icona": "fattura"
+        },
+        {
+          "etichetta": "Vendite",
+          "testo": "Prepara preventivi e solleciti",
+          "icona": "invio"
+        },
+        {
+          "etichetta": "Assistenza",
+          "testo": "Risponde alle domande di sempre",
+          "icona": "chat"
+        },
+        {
+          "etichetta": "Marketing",
+          "testo": "Scrive la prima bozza di post e schede",
+          "icona": "penna"
+        }
+      ],
+      "durata": 6.2
+    },
+    {
+      "tipo": "griglia",
+      "tema": "ink",
+      "occhiello": "Dietro le quinte",
+      "titolo": "E altri quattro.",
+      "carte": [
+        {
+          "etichetta": "Magazzino",
+          "testo": "Avvisa prima che finiscano le scorte",
+          "icona": "scatola"
+        },
+        {
+          "etichetta": "Acquisti",
+          "testo": "Confronta i listini dei fornitori",
+          "icona": "confronto"
+        },
+        {
+          "etichetta": "Riunioni",
+          "testo": "Scrive verbale e cose da fare",
+          "icona": "appunti"
+        },
+        {
+          "etichetta": "Direzione",
+          "testo": "Report pronto ogni lunedì",
+          "icona": "grafico"
+        }
+      ],
+      "durata": 6.2
+    },
+    {
+      "tipo": "lista",
+      "occhiello": "Da dove partire",
+      "titolo": "La regola per scegliere.",
+      "voci": [
+        "Si ripete ogni settimana",
+        "Segue sempre gli stessi passi",
+        "Oggi lo fa una persona, a mano"
+      ],
+      "sub": "Tre sì: lì l'AI rende [[subito]].",
+      "durata": 6,
+      "sfondo": "REGOLA"
+    },
+    {
+      "tipo": "cta",
+      "occhiello": "Scart Up",
+      "titolo": "Qual è il tuo lavoro [[ripetitivo]]?",
+      "azione": "Scrivimelo in DM",
+      "durata": 4,
+      "tema": "viola"
+    }
+  ]
+}

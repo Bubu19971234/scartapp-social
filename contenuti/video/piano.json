@@ -1,0 +1,15 @@
+{
+  "nota": "Serie video «AI in azienda». Ogni episodio esce prima su Instagram/Facebook @scartapp (MP4 9:16), poi 1-2 giorni dopo sul profilo LinkedIn di Marco (MP4 4:5 + testo del campo \"linkedin\", in prima persona). Stato: 'pronto' = JSON scritto e MP4 generato; 'da scrivere' = solo l'idea. Regola sui numeri: ogni cifra o ha una fonte citata a schermo, o è dichiarata come ipotesi/conto. Niente numeri inventati sui clienti.",
+  "episodi": [
+    { "n": 1, "slug": "quanto-tempo-ai", "stato": "pronto", "tema": "Quanto tempo si risparmia: tre studi (Science, NBER, Harvard)" },
+    { "n": 2, "slug": "trenta-minuti-al-giorno", "stato": "pronto", "tema": "Il conto: 30 min al giorno = 110 ore l'anno a persona (ipotesi dichiarata)" },
+    { "n": 3, "slug": "ai-in-ogni-reparto", "stato": "pronto", "tema": "Quante applicazioni: otto lavori, reparto per reparto" },
+    { "n": 4, "slug": "email-in-meta-tempo", "stato": "da scrivere", "tema": "Una giornata di email: cosa delegare (bozze, riassunti di thread, risposte ricorrenti) e cosa no" },
+    { "n": 5, "slug": "riunioni-senza-verbale", "stato": "da scrivere", "tema": "Riunioni: trascrizione, verbale e cose da fare in automatico" },
+    { "n": 6, "slug": "preventivo-in-dieci-minuti", "stato": "da scrivere", "tema": "Vendite: dal listino al preventivo pronto, con il controllo umano prima dell'invio" },
+    { "n": 7, "slug": "chi-guadagna-di-piu", "stato": "da scrivere", "tema": "Più performanti: l'AI aiuta soprattutto chi è meno esperto (+34% contro quasi zero per i senior, NBER 2023)" },
+    { "n": 8, "slug": "dove-non-usarla", "stato": "da scrivere", "tema": "Dove NON usarla: il compito sbagliato costa 19 punti di risposte corrette (Harvard 2023)" },
+    { "n": 9, "slug": "primo-progetto-ai", "stato": "da scrivere", "tema": "Da dove partire: scegliere il primo processo in tre domande, misurare prima e dopo" },
+    { "n": 10, "slug": "caso-reale-scart-up", "stato": "da scrivere", "tema": "Un caso reale Scart Up con tempi MISURATI prima/dopo — serve un dato vero da un cliente" }
+  ]
+}
