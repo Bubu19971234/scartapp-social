@@ -471,10 +471,20 @@ async function rendi(browser, post, nomeFormato, anteprima) {
   const mp4 = path.join(USCITA, `${post.slug}${f.suffisso}.mp4`)
   const { p, fine } = ffmpeg(mp4)
   const n = Math.round(totale * FPS)
-  for (let i = 0; i < n; i++) {
-    await page.evaluate((t) => window.vai(t), i / FPS)
-    const buf = await page.screenshot({ type: 'jpeg', quality: 95 })
-    if (!p.stdin.write(buf)) await new Promise((r) => p.stdin.once('drain', r))
+  try {
+    for (let i = 0; i < n; i++) {
+      await page.evaluate((t) => window.vai(t), i / FPS)
+      let buf
+      // la cattura ogni tanto fallisce a vuoto sotto carico: si riprova, il tempo è fermo
+      for (let giro = 0; ; giro++) {
+        try { buf = await page.screenshot({ type: 'jpeg', quality: 95 }); break } catch (e) { if (giro >= 3) throw e }
+      }
+      if (!p.stdin.write(buf)) await new Promise((r) => p.stdin.once('drain', r))
+    }
+  } catch (e) {
+    p.kill('SIGKILL')
+    fs.rmSync(mp4, { force: true })   // mai lasciare in giro un MP4 a metà
+    throw e
   }
   p.stdin.end()
   await fine
