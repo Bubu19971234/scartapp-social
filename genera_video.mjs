@@ -318,7 +318,7 @@ i{font-style:normal}
   animation:lampo 1s calc(var(--t0) + var(--d) + .7s) both ease-in-out}
 @keyframes cresce{from{width:0}to{width:var(--w)}}
 
-.pillola-box{position:relative;align-self:flex-start}
+.pillola-box{position:relative;align-self:flex-start;margin-top:${p(22)}}
 .centro--c .pillola-box{align-self:center}
 .pillola{display:inline-block;background:linear-gradient(90deg,#B6E86B,${VERDE});color:${VERDE_INK};font-weight:800;font-size:${p(50)};
   padding:${p(26)} ${p(54)};border-radius:999px;box-shadow:0 14px 60px rgba(139,198,63,.55)}
@@ -447,12 +447,16 @@ async function rendi(browser, post, nomeFormato, anteprima) {
 
   // controllo impaginazione: nessuna scena deve sforare la propria area
   const sforano = await page.evaluate(() => {
-    window.vai(1e6)
+    // particelle e onde escono apposta dal riquadro: non contano come testo che sfora
+    document.querySelectorAll('.botto,.eco').forEach((e) => (e.style.display = 'none'))
+    // stato finale di ogni animazione, senza passare da vai(): l'elenco lo si fissa dopo il ripristino
+    document.getAnimations().forEach((an) => (an.currentTime = 1e9))
     return [...document.querySelectorAll('.scena')].map((s, i) => {
       const c = s.querySelector('.centro')
       return c.scrollHeight > c.clientHeight + 2 || c.scrollWidth > c.clientWidth + 2 ? i + 1 : 0
     }).filter(Boolean)
   })
+  await page.evaluate(() => document.querySelectorAll('.botto,.eco').forEach((e) => (e.style.display = '')))
   if (sforano.length) console.log(`  ATTENZIONE ${nomeFormato}: il testo sfora nelle scene ${sforano.join(', ')} — accorcia o alza la durata`)
 
   if (anteprima !== undefined) {
