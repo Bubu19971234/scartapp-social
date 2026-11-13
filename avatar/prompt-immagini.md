@@ -8,13 +8,15 @@ Non sono ancora stati provati: vanno aggiustati dopo il primo giro di immagini.
 Va incollato identico in ogni prompt, prima della scena.
 
 ```
-A stylised 3D character, editorial illustration quality: an elegant gentleman in
-his early forties with a neat moustache and a slightly raised right eyebrow.
+Photorealistic photograph, 85mm lens, natural skin texture: an elegant gentleman
+in his early forties with a neat moustache and a slightly raised right eyebrow.
 He wears a short-brim burgundy felt fedora with a tan leather band. One large
 copper-coloured corkscrew-shaped spiral curl of hair escapes from under the hat
-on his left side; the rest of his hair is short and tidy. A brass-rimmed monocle
-sits on his right eye, with a thin brass chain running down to the buttonhole of
-his lapel. Bottle-green three-piece suit, cream shirt, burgundy tie. Cognac
+on his left side; the rest of his hair is short and tidy. A real antique monocle
+sits on his right eye, wedged between cheekbone and brow: thin brass rim with
+gallery, slightly convex glass lens with a subtle reflection and faint
+magnification of the eye. A short, taut, fine brass chain runs from the rim to
+the buttonhole of his lapel. Bottle-green three-piece suit, cream shirt, burgundy tie. Cognac
 leather brogues, matching leather belt and gloves.
 Palette: burgundy #6B1E2E, bottle green #1F3D2B, cognac leather #A0622D,
 brass #C9A227, cream #F3EBDD. Soft warm studio lighting.

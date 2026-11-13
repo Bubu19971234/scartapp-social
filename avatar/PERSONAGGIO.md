@@ -1,4 +1,4 @@
-# Progetto AVATAR — scheda del personaggio (v0.1, bozza)
+# Progetto AVATAR — scheda del personaggio (v0.2, bozza)
 
 Influencer virtuale con profilo proprio. Parla di vino, enogastronomia e di app/AI
 legate a quel mondo; sponsorizza i prodotti di Marco in modo dichiarato.
@@ -23,18 +23,34 @@ che lo rende simpatico invece che inquietante.
 | Nome | **Monò** (da "monocolo"); nome esteso "Leone Monò" | [DA DECIDERE] — handle non verificati |
 | Alternative | "Conte Cavatappi", "Ottavio Sughero" | |
 | Età apparente | 40–45 | |
-| Genere | maschile | [DA DECIDERE] — non specificato nel brief |
+| Genere | maschile | deciso |
 | Origine dichiarata | "nato in una cantina, cresciuto in un server" | |
-| Resa visiva | 3D stilizzato / illustrazione editoriale, **non** fotorealistico | [DA DECIDERE] |
+| Resa visiva | **fotorealistica** | deciso |
 
-Perché stilizzato e non fotorealistico:
-- monocolo, catena e capigliatura sono dettagli che i generatori deformano; lo
-  stile illustrato perdona, il fotorealismo no;
-- è dichiaratamente finto: nessuno si sente ingannato;
-- una faccia realistica "quasi giusta" respinge, una stilizzata no.
+Perché fotorealistica: il personaggio deve parlare e muoversi in video (labiale,
+trasferimento di movimento, voce). Questi strumenti rendono meglio su un volto realistico.
 
-Contro: i tool di video parlato rendono meglio sui volti realistici. Da verificare
-con una prova prima di decidere.
+Prezzo da pagare: monocolo, catena e ricciolo sono i dettagli che si deformano per
+primi in video. Regole per tenerli realistici:
+- monocolo vero da oculista d'epoca: lente leggermente convessa con riflesso,
+  montatura sottile in ottone con galleria, incastrato tra zigomo e arcata;
+- catena corta e tesa verso il bavero, mai penzolante davanti alla bocca
+  (disturba il labiale);
+- nei video parlati inquadratura a mezzo busto e testa quasi ferma; i movimenti
+  ampi solo in clip senza parlato;
+- ogni clip si controlla fotogramma per fotogramma su monocolo e catena prima di uscire.
+
+### Video e voce — cosa si può fare
+
+- **Sì**: rifare un *formato* virale (struttura, gancio, ritmo, audio disponibile
+  in piattaforma) con riprese generate da zero.
+- **Sì**: trasferire sul personaggio il movimento di un video girato da Marco o
+  da un attore che ha dato il consenso.
+- **No**: sostituire il personaggio dentro il video virale di un altro creator.
+  Il video è suo e il corpo/movimento è di una persona reale: rischio rimozione,
+  segnalazione per violazione di copyright e uso dell'immagine altrui.
+- **Voce**: sintetica progettata da zero, oppure clonata da Marco o da un doppiatore
+  con consenso scritto. Mai la voce di una persona reale senza consenso.
 
 ## 3. Aspetto (elementi fissi — non cambiano mai)
 
@@ -80,7 +96,7 @@ Volutamente lontana dal viola/lime di Scart Up: il personaggio ha un profilo suo
 | Tavola e abbinamenti | 20% | regole di abbinamento spiegate, prodotti tipici, stagionalità |
 | App e AI del vino | 25% | strumenti per cantine, enoteche, ristoranti; prove di app |
 | Il personaggio | 10% | il guardaroba, gli accessori in pelle, la vita da virtuale |
-| Prodotti di Marco | 15% | sempre dichiarati come pubblicità |
+| Prodotti di Marco | 15% | vino, AI Som, AI Margin, "cdb" — sempre dichiarati come pubblicità |
 
 Tetto promozionale: 1 post su 6. Oltre, il profilo diventa un catalogo e smette
 di crescere.
@@ -98,15 +114,17 @@ di crescere.
   Limite d'età 18+ sul profilo se si promuovono alcolici.
 - **Mai** volti, nomi o voci di persone reali.
 
-## 7. Decisioni aperte
+## 7. Decisioni
 
-1. **Quali prodotti sponsorizza?** Il brief dice "i miei prodotti" ma questo repo è
-   Scart Up (automazioni AI per piccole imprese), non vino. Cambia pilastri e
-   regole (alcol sì/no).
-2. Nome e handle (verificare disponibilità su Instagram/TikTok).
-3. Genere e resa visiva (stilizzato vs fotorealistico).
-4. Lingua: solo italiano o anche inglese.
-5. Canali di partenza: consigliato Instagram + TikTok, uno solo per i primi 30 giorni.
+Prese: genere maschile · resa fotorealistica · sponsorizza vino, AI Som, AI Margin
+e "cdb" · Scart Up in attesa.
+
+Aperte:
+1. Nome e handle (verificare disponibilità su Instagram/TikTok).
+2. "cdb": quale prodotto è (nel repo compare "CDF").
+3. Il vino: marchio proprio o di terzi. Cambia le regole sulla pubblicità.
+4. Voce: sintetica o clonata da una persona consenziente.
+5. Lingua e canale di partenza.
 
 ## 8. Prossimi passi
 
